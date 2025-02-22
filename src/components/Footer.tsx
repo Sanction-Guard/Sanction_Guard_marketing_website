@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <Shield className="h-8 w-8 text-blue-400" />
+              <img src="src\images\newlogo.png" className="h-10 w-10 text-blue-400" />
               <span className="ml-2 text-xl font-bold">Sanction Guard</span>
             </div>
             <p className="text-slate-400">
@@ -18,25 +18,24 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-slate-400 hover:text-white">Home</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-white">About Us</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-white">Services</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-white">Contact</a></li>
+              <li><a href="/" className="text-slate-400 hover:text-white">Home</a></li>
+              <li><a href="/about" className="text-slate-400 hover:text-white">About Us</a></li>
+              <li><a href="/contact" className="text-slate-400 hover:text-white">Contact</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2">
               <li className="flex items-center">
-                <Mail className="h-5 w-5 mr-2 text-blue-400" />
+                <Mail className="h-5 w-5 mr-2 text-[#51aee5]" />
                 <span className="text-slate-400">sanctionguard2023@gmail.com</span>
               </li>
               <li className="flex items-center">
-                <Phone className="h-5 w-5 mr-2 text-blue-400" />
+                <Phone className="h-5 w-5 mr-2 text-[#51aee5]" />
                 <span className="text-slate-400">+94 - 769759727</span>
               </li>
               <li className="flex items-center">
-                <MapPin className="h-5 w-5 mr-2 text-blue-400" />
+                <MapPin className="h-5 w-5 mr-2 text-[#51aee5]" />
                 <span className="text-slate-400"></span>IIT Cityoffice, Colombo 6
               </li>
             </ul>
