@@ -2,7 +2,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const teamMembers = [
-  { name: "Pamali Rodrigo", position: "Marketing Specialist ", image: "pamali.jpeg" },
+  { name: "Pamali Rodrigo", position: "Marketing Specialist ", image: "panali.jpeg" },
   { name: "Harini Nandasena", position: "Frontend Developer", image: "harini.jpeg" },
   { name: "Kisara Herath", position: "Backend Developer", image: "kisara.jpg" },
   { name: "Chavishka Silva", position: "DevOps Engineer", image: "chavishka.jpg" },
