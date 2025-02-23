@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <img src="src\images\newlogo.png" className="h-10 w-10 text-blue-400" />
+              <img src="newlogo.png" className="h-10 w-10 text-blue-400" />
               <span className="ml-2 text-xl font-bold">Sanction Guard</span>
             </div>
             <p className="text-slate-400">
