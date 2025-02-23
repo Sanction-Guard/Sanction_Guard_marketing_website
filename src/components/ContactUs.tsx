@@ -46,7 +46,7 @@ const ContactForm = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="border rounded p-2 mt-1"
+              className="border rounded p-2 mt-1 text-black"
               required
             />
           </div>
@@ -59,7 +59,7 @@ const ContactForm = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="border rounded p-2 mt-1"
+              className="border rounded p-2 mt-1 text-black"
               required
             />
           </div>

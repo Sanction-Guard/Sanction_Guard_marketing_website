@@ -6,7 +6,7 @@ const teamMembers = [
   { name: "Harini Nandasena", position: "Frontend Developer", image: "harini.jpeg" },
   { name: "Kisara Herath", position: "Backend Developer", image: "kisara.jpg" },
   { name: "Chavishka Silva", position: "DevOps Engineer", image: "chavishka.jpg" },
-  { name: "Lakindu Karunanayaka", position: "UI/UX Specialist", image: "lakindu.png" },
+  { name: "Lakindu Karunanayaka", position: "UI/UX Specialist", image: "lakindu.jpg" },
   { name: "Kithmi Hettiarchchi", position: "Software Architect ", image: "kithmi.png" }
 ];
 const AboutUs = () => {
