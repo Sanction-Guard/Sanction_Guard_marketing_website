@@ -87,7 +87,7 @@ const AboutUs = () => {
   </div>
 </div>
 
-<h2 className="text-center text-white text-xl sm:text-2xl md:text-3xl font-semibold leading-relaxed px-4 sm:px-6 md:px-10 max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto my-12">
+<h2 className="text-center text-white text-xl sm:text-2xl md:text-3xl font-semibold leading-relaxed px-4 sm:px-6 md:px-10 max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto my-12 mb-10">
   Join Us in Redefining Compliance <br /><br />
   At Sanction Guard, we are dedicated to building a safer financial world by
   providing organizations with the most advanced, efficient, and secure
@@ -101,9 +101,9 @@ const AboutUs = () => {
 </h2>
 
 
-<h1 className="mb-20 text-4xl font-bold text-white text-center sm:text-5xl md:text-6xl">Meet Our Team</h1>
+<h1 className="mb-20 mt-40 text-4xl font-bold text-white text-center sm:text-5xl md:text-6xl">Meet Our Team</h1>
 
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 mb-20">
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 mb-20 relative z-[10]">
 
   {teamMembers.map((member,index) => (
       
