@@ -2,12 +2,12 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const teamMembers = [
-  { name: "Pamali Rodrigo", position: "Marketing Specialist ", image: "../src/images/pamali.jpeg" },
-  { name: "Harini Nandasena", position: "Frontend Developer", image: "src/images/harini.jpeg" },
-  { name: "Kisara Herath", position: "Backend Developer", image: "src/images/kisara.jpg" },
-  { name: "Chavishka Silva", position: "DevOps Engineer", image: "src/images/chavishka.jpg" },
-  { name: "Lakindu Karunanayaka", position: "UI/UX Specialist", image: "src/images/lakindu.png" },
-  { name: "Kithmi Hettiarchchi", position: "Software Architect ", image: "src/images/kithmi.png" }
+  { name: "Pamali Rodrigo", position: "Marketing Specialist ", image: "pamali.jpeg" },
+  { name: "Harini Nandasena", position: "Frontend Developer", image: "harini.jpeg" },
+  { name: "Kisara Herath", position: "Backend Developer", image: "kisara.jpg" },
+  { name: "Chavishka Silva", position: "DevOps Engineer", image: "chavishka.jpg" },
+  { name: "Lakindu Karunanayaka", position: "UI/UX Specialist", image: "lakindu.png" },
+  { name: "Kithmi Hettiarchchi", position: "Software Architect ", image: "kithmi.png" }
 ];
 const AboutUs = () => {
   return (
