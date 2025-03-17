@@ -14,20 +14,22 @@ This repository contains the code for Sanction Guard's marketing website. The si
 - Performance-focused implementation
 
 ## Technology Stack
+- Technology Stack
 - HTML5, CSS3, JavaScript
 - SCSS for stylesheet preprocessing
 - Webpack for asset bundling
-- Bootstrap for responsive grid system
+- tailwind for responsive grid system
 - jQuery for DOM manipulation
-- GSAP for animations
-- Netlify/Vercel for hosting and deployment
-- Formspree for form submissions
+- vanta.js for animations
+- Vercel for hosting and deployment
+- email.js for form submissions
 
 ## Getting Started
 
 ### Prerequisites
 - Node.js (v14.0.0 or higher)
 - npm (v6.0.0 or higher) or Yarn (v1.22.0 or higher)
+- vite (v5.4.2 or higher)
 
 ### Installation
 1. Clone the repository
@@ -92,10 +94,7 @@ The website content can be updated through:
 
 ## Analytics and Tracking
 The website is configured with:
-- Google Analytics for visitor tracking
-- Google Tag Manager for marketing tags
-- LinkedIn Insight Tag for conversion tracking
-- HubSpot tracking for lead attribution
+- Vercel Analytics for visitor tracking
 
 ## Browser Compatibility
 The website is tested and optimized for:
@@ -121,14 +120,16 @@ The website is tested and optimized for:
 5. Open a Pull Request
 
 ## Deployment
-The website is automatically deployed through CI/CD:
-- Commits to `develop` branch deploy to staging environment
-- Commits to `main` branch deploy to production environment
-
+This website is automatically deployed using Vercel's continuous integration and continuous deployment (CI/CD) capabilities.
+- Branch-Based Deployments:
+- Commits pushed to the develop branch trigger automatic deployments to a staging environment on Vercel. This allows for testing and previewing changes before they are made live.
+- Commits pushed to the main branch trigger automatic deployments to the production environment on Vercel, making the changes immediately accessible to users.
+- This setup streamlines the deployment process, ensuring that updates are efficiently and reliably delivered.
+  
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 For questions related to the marketing website, please contact:
-- Marketing Team: marketing@sanctionguard.com
-- Development Team: webdev@sanctionguard.com
+- Marketing Team: marketing@sanctionguard2024@gmail.com
+- Development Team: webdev@sanctionguard2024@gmail.com
